@@ -83,7 +83,6 @@ struct ContentView: View {
                 .navigationTitle("Summary")
 
                 ChangeDeviceButton(bluetooth: bluetooth)
-                Text(String(hrSampleRate))
             }
             
         }
@@ -113,8 +112,8 @@ struct SetHeartRateSampleFreqButton: View {
                             
     ) {
         Label {
-            Text("Heart Rate Sampling Interval")
-                .font(.title3)
+            Text("Heart Rate Sampling Interval: " + ((self.hrSampleRate == 1) ? "minute" : "\(self.hrSampleRate) minutes"))
+                .font(.headline)
                 .frame(maxWidth: .infinity, alignment: .leading)
         } icon: {}
         
