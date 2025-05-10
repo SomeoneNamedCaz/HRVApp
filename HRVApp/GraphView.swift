@@ -15,12 +15,11 @@
 import SwiftUI
 import Charts
 
-
 struct GraphView: View {
     var body: some View {
         VStack {
 //
-            
+
             Text("Heart rate Variability")
             Chart {
                 LineMark(
@@ -32,7 +31,7 @@ struct GraphView: View {
                     y: .value("Total Count", 10)
                 )
                 LineMark(
-                    x: .value("Shape Type","shape3"),
+                    x: .value("Shape Type", "shape3"),
                     y: .value("Total Count", 8)
                 )
             }
@@ -47,7 +46,7 @@ struct GraphView: View {
                     y: .value("Total Count", 10)
                 )
                 LineMark(
-                    x: .value("Shape Type","shape3"),
+                    x: .value("Shape Type", "shape3"),
                     y: .value("Total Count", 8)
                 )
             }
@@ -59,4 +58,3 @@ struct GraphView: View {
 #Preview {
     GraphView()
 }
-

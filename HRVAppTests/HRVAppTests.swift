@@ -6,7 +6,7 @@
 //
 
 import Testing
-@testable import swiftUITest
+@testable import HRVApp
 
 struct swiftUITestTests {
 

@@ -1,6 +1,6 @@
 //
-//  swiftUITestUITestsLaunchTests.swift
-//  swiftUITestUITests
+//  HRVAppestUITestsLaunchTests.swift
+//  HRVAppUITests
 //
 //  Created by Caz Cullimore on 5/9/25.
 //

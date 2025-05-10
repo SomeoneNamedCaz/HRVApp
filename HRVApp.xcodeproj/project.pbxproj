@@ -12,50 +12,50 @@
 			containerPortal = 39BBEC342DCF040D00D012B5 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 39BBEC3B2DCF040D00D012B5;
-			remoteInfo = swiftUITest;
+			remoteInfo = HRVApp;
 		};
 		39BBEC542DCF041100D012B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 39BBEC342DCF040D00D012B5 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 39BBEC3B2DCF040D00D012B5;
-			remoteInfo = swiftUITest;
+			remoteInfo = HRVApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		39BBEC3C2DCF040D00D012B5 /* swiftUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		39BBEC492DCF041100D012B5 /* swiftUITestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftUITestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		39BBEC532DCF041100D012B5 /* swiftUITestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftUITestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39BBEC3C2DCF040D00D012B5 /* HRVApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HRVApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39BBEC492DCF041100D012B5 /* HRVAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HRVAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39BBEC532DCF041100D012B5 /* HRVAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HRVAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		39BBEC702DCF73CA00D012B5 /* Exceptions for "swiftUITest" folder in "swiftUITest" target */ = {
+		39BBEC702DCF73CA00D012B5 /* Exceptions for "HRVApp" folder in "HRVApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 39BBEC3B2DCF040D00D012B5 /* swiftUITest */;
+			target = 39BBEC3B2DCF040D00D012B5 /* HRVApp */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		39BBEC3E2DCF040D00D012B5 /* swiftUITest */ = {
+		39BBEC3E2DCF040D00D012B5 /* HRVApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				39BBEC702DCF73CA00D012B5 /* Exceptions for "swiftUITest" folder in "swiftUITest" target */,
+				39BBEC702DCF73CA00D012B5 /* Exceptions for "HRVApp" folder in "HRVApp" target */,
 			);
-			path = swiftUITest;
+			path = HRVApp;
 			sourceTree = "<group>";
 		};
-		39BBEC4C2DCF041100D012B5 /* swiftUITestTests */ = {
+		39BBEC4C2DCF041100D012B5 /* HRVAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = swiftUITestTests;
+			path = HRVAppTests;
 			sourceTree = "<group>";
 		};
-		39BBEC562DCF041100D012B5 /* swiftUITestUITests */ = {
+		39BBEC562DCF041100D012B5 /* HRVAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = swiftUITestUITests;
+			path = HRVAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,9 +88,9 @@
 		39BBEC332DCF040D00D012B5 = {
 			isa = PBXGroup;
 			children = (
-				39BBEC3E2DCF040D00D012B5 /* swiftUITest */,
-				39BBEC4C2DCF041100D012B5 /* swiftUITestTests */,
-				39BBEC562DCF041100D012B5 /* swiftUITestUITests */,
+				39BBEC3E2DCF040D00D012B5 /* HRVApp */,
+				39BBEC4C2DCF041100D012B5 /* HRVAppTests */,
+				39BBEC562DCF041100D012B5 /* HRVAppUITests */,
 				39BBEC3D2DCF040D00D012B5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,9 +98,9 @@
 		39BBEC3D2DCF040D00D012B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				39BBEC3C2DCF040D00D012B5 /* swiftUITest.app */,
-				39BBEC492DCF041100D012B5 /* swiftUITestTests.xctest */,
-				39BBEC532DCF041100D012B5 /* swiftUITestUITests.xctest */,
+				39BBEC3C2DCF040D00D012B5 /* HRVApp.app */,
+				39BBEC492DCF041100D012B5 /* HRVAppTests.xctest */,
+				39BBEC532DCF041100D012B5 /* HRVAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		39BBEC3B2DCF040D00D012B5 /* swiftUITest */ = {
+		39BBEC3B2DCF040D00D012B5 /* HRVApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39BBEC5D2DCF041100D012B5 /* Build configuration list for PBXNativeTarget "swiftUITest" */;
+			buildConfigurationList = 39BBEC5D2DCF041100D012B5 /* Build configuration list for PBXNativeTarget "HRVApp" */;
 			buildPhases = (
 				39BBEC382DCF040D00D012B5 /* Sources */,
 				39BBEC392DCF040D00D012B5 /* Frameworks */,
@@ -122,18 +122,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				39BBEC3E2DCF040D00D012B5 /* swiftUITest */,
+				39BBEC3E2DCF040D00D012B5 /* HRVApp */,
 			);
-			name = swiftUITest;
+			name = HRVApp;
 			packageProductDependencies = (
 			);
-			productName = swiftUITest;
-			productReference = 39BBEC3C2DCF040D00D012B5 /* swiftUITest.app */;
+			productName = HRVApp;
+			productReference = 39BBEC3C2DCF040D00D012B5 /* HRVApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		39BBEC482DCF041100D012B5 /* swiftUITestTests */ = {
+		39BBEC482DCF041100D012B5 /* HRVAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39BBEC602DCF041100D012B5 /* Build configuration list for PBXNativeTarget "swiftUITestTests" */;
+			buildConfigurationList = 39BBEC602DCF041100D012B5 /* Build configuration list for PBXNativeTarget "HRVAppTests" */;
 			buildPhases = (
 				39BBEC452DCF041100D012B5 /* Sources */,
 				39BBEC462DCF041100D012B5 /* Frameworks */,
@@ -145,18 +145,18 @@
 				39BBEC4B2DCF041100D012B5 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				39BBEC4C2DCF041100D012B5 /* swiftUITestTests */,
+				39BBEC4C2DCF041100D012B5 /* HRVAppTests */,
 			);
-			name = swiftUITestTests;
+			name = HRVAppTests;
 			packageProductDependencies = (
 			);
-			productName = swiftUITestTests;
-			productReference = 39BBEC492DCF041100D012B5 /* swiftUITestTests.xctest */;
+			productName = HRVAppTests;
+			productReference = 39BBEC492DCF041100D012B5 /* HRVAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		39BBEC522DCF041100D012B5 /* swiftUITestUITests */ = {
+		39BBEC522DCF041100D012B5 /* HRVAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39BBEC632DCF041100D012B5 /* Build configuration list for PBXNativeTarget "swiftUITestUITests" */;
+			buildConfigurationList = 39BBEC632DCF041100D012B5 /* Build configuration list for PBXNativeTarget "HRVAppUITests" */;
 			buildPhases = (
 				39BBEC4F2DCF041100D012B5 /* Sources */,
 				39BBEC502DCF041100D012B5 /* Frameworks */,
@@ -168,13 +168,13 @@
 				39BBEC552DCF041100D012B5 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				39BBEC562DCF041100D012B5 /* swiftUITestUITests */,
+				39BBEC562DCF041100D012B5 /* HRVAppUITests */,
 			);
-			name = swiftUITestUITests;
+			name = HRVAppUITests;
 			packageProductDependencies = (
 			);
-			productName = swiftUITestUITests;
-			productReference = 39BBEC532DCF041100D012B5 /* swiftUITestUITests.xctest */;
+			productName = HRVAppUITests;
+			productReference = 39BBEC532DCF041100D012B5 /* HRVAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -200,7 +200,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 39BBEC372DCF040D00D012B5 /* Build configuration list for PBXProject "swiftUITest" */;
+			buildConfigurationList = 39BBEC372DCF040D00D012B5 /* Build configuration list for PBXProject "HRVApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -214,9 +214,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				39BBEC3B2DCF040D00D012B5 /* swiftUITest */,
-				39BBEC482DCF041100D012B5 /* swiftUITestTests */,
-				39BBEC522DCF041100D012B5 /* swiftUITestUITests */,
+				39BBEC3B2DCF040D00D012B5 /* HRVApp */,
+				39BBEC482DCF041100D012B5 /* HRVAppTests */,
+				39BBEC522DCF041100D012B5 /* HRVAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,7 +261,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [[ \"$(uname -m)\" == arm64 ]]; then\n  export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+			shellScript = "
+";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -292,12 +293,12 @@
 /* Begin PBXTargetDependency section */
 		39BBEC4B2DCF041100D012B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 39BBEC3B2DCF040D00D012B5 /* swiftUITest */;
+			target = 39BBEC3B2DCF040D00D012B5 /* HRVApp */;
 			targetProxy = 39BBEC4A2DCF041100D012B5 /* PBXContainerItemProxy */;
 		};
 		39BBEC552DCF041100D012B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 39BBEC3B2DCF040D00D012B5 /* swiftUITest */;
+			target = 39BBEC3B2DCF040D00D012B5 /* HRVApp */;
 			targetProxy = 39BBEC542DCF041100D012B5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -434,7 +435,7 @@
 				DEVELOPMENT_TEAM = RV8UD4KFKA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = swiftUITest/Info.plist;
+				INFOPLIST_FILE = HRVApp/Info.plist;
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Enable Bluetooth ";
 				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Enable Peripheral Bluetooth";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -465,7 +466,7 @@
 				DEVELOPMENT_TEAM = RV8UD4KFKA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = swiftUITest/Info.plist;
+				INFOPLIST_FILE = HRVApp/Info.plist;
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Enable Bluetooth ";
 				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Enable Peripheral Bluetooth";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -496,12 +497,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.swiftUITestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = me.HRVAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftUITest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swiftUITest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HRVApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HRVApp";
 			};
 			name = Debug;
 		};
@@ -515,12 +516,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.swiftUITestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = me.HRVAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftUITest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swiftUITest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HRVApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HRVApp";
 			};
 			name = Release;
 		};
@@ -532,12 +533,12 @@
 				DEVELOPMENT_TEAM = RV8UD4KFKA;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.swiftUITestUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = me.HRVAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = swiftUITest;
+				TEST_TARGET_NAME = HRVApp;
 			};
 			name = Debug;
 		};
@@ -549,19 +550,19 @@
 				DEVELOPMENT_TEAM = RV8UD4KFKA;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.swiftUITestUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = me.HRVAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = swiftUITest;
+				TEST_TARGET_NAME = HRVApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		39BBEC372DCF040D00D012B5 /* Build configuration list for PBXProject "swiftUITest" */ = {
+		39BBEC372DCF040D00D012B5 /* Build configuration list for PBXProject "HRVApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				39BBEC5B2DCF041100D012B5 /* Debug */,
@@ -570,7 +571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		39BBEC5D2DCF041100D012B5 /* Build configuration list for PBXNativeTarget "swiftUITest" */ = {
+		39BBEC5D2DCF041100D012B5 /* Build configuration list for PBXNativeTarget "HRVApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				39BBEC5E2DCF041100D012B5 /* Debug */,
@@ -579,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		39BBEC602DCF041100D012B5 /* Build configuration list for PBXNativeTarget "swiftUITestTests" */ = {
+		39BBEC602DCF041100D012B5 /* Build configuration list for PBXNativeTarget "HRVAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				39BBEC612DCF041100D012B5 /* Debug */,
@@ -588,7 +589,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		39BBEC632DCF041100D012B5 /* Build configuration list for PBXNativeTarget "swiftUITestUITests" */ = {
+		39BBEC632DCF041100D012B5 /* Build configuration list for PBXNativeTarget "HRVAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				39BBEC642DCF041100D012B5 /* Debug */,
