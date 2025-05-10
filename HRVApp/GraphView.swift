@@ -16,40 +16,43 @@ import SwiftUI
 import Charts
 
 struct GraphView: View {
+    let dateFormatter: DateFormatter = DateFormatter()
     var body: some View {
         VStack {
-//
-
-            Text("Heart rate Variability")
+            
+            Text("Heart Rate Variability (ms)")
+            
             Chart {
                 LineMark(
-                    x: .value("Shape Type", "shape1"),
-                    y: .value("Total Count", 5)
+                    x: .value("date","1/1/2000"),
+                    y: .value("HRV", 50)
                 )
                 LineMark(
-                    x: .value("Shape Type", "shape2"),
-                    y: .value("Total Count", 10)
+                    x: .value("date", "1/2/2000"),
+                    y: .value("HRV", 60)
                 )
                 LineMark(
-                    x: .value("Shape Type", "shape3"),
-                    y: .value("Total Count", 8)
+                    x: .value("date", "1/3/2000"),
+                    y: .value("HRV", 65)
                 )
             }
-            Text("Heart rate")
+            .chartYScale(domain: [0,100])
+            Text("Heart Rate (bpm)")
             Chart {
                 LineMark(
-                    x: .value("Shape Type", "shape1"),
-                    y: .value("Total Count", 5)
+                    x: .value("date", "1/1/2000"),
+                    y: .value("HR", 78)
                 )
                 LineMark(
-                    x: .value("Shape Type", "shape2"),
-                    y: .value("Total Count", 10)
+                    x: .value("date", "1/2/2000"),
+                    y: .value("HR", 70)
                 )
                 LineMark(
-                    x: .value("Shape Type", "shape3"),
-                    y: .value("Total Count", 8)
+                    x: .value("date", "1/3/2000"),
+                    y: .value("HR", 75)
                 )
             }
+            .chartYScale(domain: [0,200])
         }
 //        .frame(height: 200)
     }
